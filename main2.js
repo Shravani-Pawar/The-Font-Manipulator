@@ -44,5 +44,5 @@ function draw()
     
     document.getElementById("px").innerHTML=size+"px";
     fill('#AD33FF');
-    text(txt,50,230);
+    text(txt,50,100);
 }
