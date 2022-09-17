@@ -1,4 +1,4 @@
-text="Peter";
+txt="Peter";
 
 function setup()
 {
@@ -39,5 +39,5 @@ function draw()
     background('#969A97');
     textSize(difference);
     fill('#AD33FF');
-    text(text,50,400);
+    text(txt,50,400);
 }
