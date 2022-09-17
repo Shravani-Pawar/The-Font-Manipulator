@@ -38,6 +38,6 @@ function draw()
 {
     background('#969A97');
     textSize(difference);
-    fill('red');
+    fill('#AD33FF');
     text(text,50,400);
 }
