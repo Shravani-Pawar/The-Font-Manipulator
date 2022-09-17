@@ -17,13 +17,7 @@ function modelLoaded()
     console.log('PoseNet is initialized');
 }
 
-function draw()
-{
-    background('#969A97');
-    textSize(difference);
-    fill('red');
-    text(text,50,400);
-}
+
 
 
 function gotPoses(results)
@@ -38,4 +32,13 @@ function gotPoses(results)
         console.log("leftwristx="+leftWristX+"rightWristX"+rightWristX+"difference"+difference);
 
     }
+}
+
+
+function draw()
+{
+    background('#969A97');
+    textSize(difference);
+    fill('red');
+    text(text,50,400);
 }
