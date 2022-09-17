@@ -1,4 +1,4 @@
-txt="Peter";
+txt="LoL!";
 rightWristX=0;
 leftWristX=0;
 
