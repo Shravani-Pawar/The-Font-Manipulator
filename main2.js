@@ -43,6 +43,6 @@ function draw()
     textSize(size=floor(leftWristX-rightWristX));
     
     document.getElementById("px").innerHTML=size+"px";
-    fill('#c98df1');
+    fill('#d0fdd0');
     text(txt,50,230);
 }
