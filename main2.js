@@ -1,4 +1,4 @@
-txt="LoL!";
+txt="(/◕ヮ◕)/";
 rightWristX=0;
 leftWristX=0;
 
@@ -42,5 +42,5 @@ function draw()
     background('#969A97');
     textSize(floor(leftWristX-rightWristX));
     fill('#AD33FF');
-    text(txt,50,400);
+    text(txt,500,400);
 }
