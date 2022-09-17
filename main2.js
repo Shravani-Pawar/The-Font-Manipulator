@@ -1,4 +1,4 @@
-txt="(/◕ヮ◕)/";
+txt="(◕‿◕)";
 rightWristX=0;
 leftWristX=0;
 
@@ -43,6 +43,6 @@ function draw()
     textSize(size=floor(leftWristX-rightWristX));
     
     document.getElementById("px").innerHTML=size+"px";
-    fill('rgb(164, 228, 255)');
+    fill('#AD33FF');
     text(txt,50,230);
 }
