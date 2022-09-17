@@ -1,4 +1,6 @@
 txt="Peter";
+rightWristX=0;
+leftWristX=0;
 
 function setup()
 {
@@ -28,6 +30,7 @@ function gotPoses(results)
        
         leftWristX=results[0].pose.leftWrist.x;
         rightWristX=results[0].pose.rightWrist.x;
+         difference=floor(leftWristX-rightWristX);
 
     }
 }
@@ -35,7 +38,7 @@ function gotPoses(results)
 
 function draw()
 {   
-    difference=floor(leftWristX-rightWristX);
+   
     background('#969A97');
     textSize(difference);
     fill('#AD33FF');
