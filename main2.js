@@ -42,5 +42,5 @@ function draw()
     background('#969A97');
     textSize(floor(leftWristX-rightWristX));
     fill('#AD33FF');
-    text(txt,500,400000);
+    text(txt,550,300);
 }
